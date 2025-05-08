@@ -182,8 +182,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e163291de7727ad458e0f1eda3771ea0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  width: 10
-  height: 10
+  width: 25
+  height: 25
   wallPrefab: {fileID: 1869232845739912019, guid: d60e5a913196ce442b4160e2f01a5105, type: 3}
   pathMarkerPrefab: {fileID: 1001238304274986630, guid: 9955138872fdc8c48bdcfec1c050bbe0, type: 3}
   startMarkerPrefab: {fileID: 4349516604760307238, guid: 7dcb59236c5c4c14d8439fee77d65b65, type: 3}
@@ -200,7 +200,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 391631345}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &208975659
@@ -302,8 +303,8 @@ Transform:
   m_GameObject: {fileID: 208975659}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.25, y: -1, z: 0}
-  m_LocalScale: {x: 25, y: 0.1, z: 25}
+  m_LocalPosition: {x: 12.2, y: -1, z: 12.1}
+  m_LocalScale: {x: 50, y: 0.1, z: 50}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -393,12 +394,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 391631342}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 4.1, y: 10.34, z: 4.37}
+  m_LocalRotation: {x: 1, y: -0, z: -0, w: 0}
+  m_LocalPosition: {x: 11.79, y: -11.48, z: 25.46}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 126209145}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &543954690
 GameObject:
@@ -935,7 +936,6 @@ RectTransform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 391631345}
   - {fileID: 1574955576}
   - {fileID: 126209145}
   - {fileID: 208975663}
